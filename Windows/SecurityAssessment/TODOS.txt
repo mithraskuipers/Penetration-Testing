@@ -1,0 +1,21 @@
+Problem 1:
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\repos\Penetration-Testing\Windows\SecurityAssessment\WithoutPrivescCheck> .\Invoke-SecurityAssessment.ps1
+.\Invoke-SecurityAssessment.ps1 : File C:\repos\Penetration-Testing\Windows\SecurityAssessment\WithoutPrivescCheck\Invo
+ke-SecurityAssessment.ps1 cannot be loaded. The file C:\repos\Penetration-Testing\Windows\SecurityAssessment\WithoutPri
+vescCheck\Invoke-SecurityAssessment.ps1 is not digitally signed. You cannot run this script on the current system. For
+more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsof
+t.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .\Invoke-SecurityAssessment.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\repos\Penetration-Testing\Windows\SecurityAssessment\WithoutPrivescCheck>
+
+
+Problem 2:
+Make script to automatically retrieve the latest PrivescCheck version and construct the all in one version.
+That is easyb for preparing the latest version.
