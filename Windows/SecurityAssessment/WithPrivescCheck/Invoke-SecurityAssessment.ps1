@@ -1078,6 +1078,7 @@ function Write-Summary {
     Emit $rule 'DarkCyan'
 }
 
+# >>> PRIVESCCHECK-EMBED-START (managed by Update-PrivescCheck.ps1, do not hand-edit this block) >>>
 # ----------------------------------------------------------------------------------------------
 # Embedded: itm4n/PrivescCheck (https://github.com/itm4n/PrivescCheck), BSD-3-Clause license.
 # Bundled verbatim, byte-for-byte, from the project's official release asset so that this tool
@@ -1139,6 +1140,7 @@ $Cinderella = "5wARLx8+XDfAd7tRsyL2Im3OVyLjoSBaSydq8CRxY4PnABEvHz5cN8B3u1GzIvYiL
 }
 '@
 $script:Ctx.PrivescCheckSource = $script:PrivescCheckSource
+# <<< PRIVESCCHECK-EMBED-END <<<
 
 # ----------------------------------------------------------------------------------------------
 # Main
